@@ -1,0 +1,3 @@
+server:
+  port: ${PORT:8851}
+message: Configuracion de rutas en el servidor levantado!
