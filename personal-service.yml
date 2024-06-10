@@ -1,0 +1,3 @@
+server:
+  port: ${PORT:8851}
+message: Configuracion de personal en el servidor levantado!
