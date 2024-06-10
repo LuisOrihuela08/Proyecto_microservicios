@@ -1,0 +1,3 @@
+server:
+  port: ${PORT:8852}
+message: Configuracion de estadoPicking en el servidor levantado!
