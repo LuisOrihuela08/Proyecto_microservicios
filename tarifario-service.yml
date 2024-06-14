@@ -1,0 +1,3 @@
+server:
+  port: ${PORT:8865}
+message: Configuracion de tarifario en el servidor levantado!
