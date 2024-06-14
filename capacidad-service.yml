@@ -1,7 +1,6 @@
 server:
   port: ${PORT:8857}
 message: Configuracion de capacidad en el servidor levantado!
-message: Configuracion de rolCargo en el servidor levantado!
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
