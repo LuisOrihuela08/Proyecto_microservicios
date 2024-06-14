@@ -1,0 +1,3 @@
+server:
+  port: ${PORT:8860}
+message: Configuracion de camion en el servidor levantado!
