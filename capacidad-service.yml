@@ -1,0 +1,3 @@
+server:
+  port: ${PORT:8857}
+message: Configuracion de capacidad en el servidor levantado!
