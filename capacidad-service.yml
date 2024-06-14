@@ -1,3 +1,17 @@
 server:
   port: ${PORT:8857}
 message: Configuracion de capacidad en el servidor levantado!
+message: Configuracion de rolCargo en el servidor levantado!
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 12345678
+    url: jdbc:mysql://localhost:3306/proyectomicroservicios?serverTimezone=UTC
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+      database-platform: org.hibernate.dialect.MySQLDialect
+  cloud:
+    config:
+      uri: http://localhost.8850
