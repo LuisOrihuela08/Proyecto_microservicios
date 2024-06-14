@@ -1,0 +1,3 @@
+server:
+  port: ${PORT:8858}
+message: Configuracion de tipoFlete en el servidor levantado!
